@@ -1,11 +1,22 @@
-// Select the "Send Message"
+// Select key elements
+const form = document.querySelector("form");
 const submitButton = document.getElementById("submit-btn");
+const messageContainer = document.getElementById("message-container");
 
-// Add an event a click
-submitButton.addEventListener("click", function(event) {
-  // Prevent the form from actually submitting (so the page doesn't reload)
-  event.preventDefault();
+// Listen for form submission
+submitButton.addEventListener("click", function (event) {
+  event.preventDefault(); // stop page reload
 
-  // Display a confirmation massage 
-  alert("✅ Thank you for your massage!.");
+  // Create the massage
+  messageContainer.innerHTML = `
+    <p class="thankyou-msg">✅ Thank you for your massage! </p>
+  `;
+
+  // clear the form
+  form.reset();
+
+  // Fade out the massage 
+  setTimeout(() => {
+    messageContainer.innerHTML = "";
+  }, 4000);
 });
