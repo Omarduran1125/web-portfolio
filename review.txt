@@ -1,0 +1,10 @@
+Peer Review – task 3 
+classmate ryan:  https://ryaneric007.github.io/web-portfolio/
+
+1. Best Feature:
+The portfolio has a clean, modern design with excellent use of images and responsive layout. 
+I liked how he added the extra hover Features making more enjoyable as a user.. 
+The “About Me” section shows a strong passion for information systems and technology, and the skill list gives a good snapshot of his technical foundation
+
+2. Suggested Improvement:
+A approvement that I might suggest is adding lighter colors to make it more pleasant on the user's eyes instead of using really bold colors
