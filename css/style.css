@@ -282,3 +282,25 @@ header {
   transform: scale(1.05);
 }
 
+
+/* --- Contact Page Confirmation Message --- */
+#message-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.thankyou-msg {
+  display: inline-block;
+  background-color: #e0ffe0;
+  color: #0a660a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
