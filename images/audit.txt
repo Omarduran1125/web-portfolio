@@ -1,0 +1,13 @@
+ Design Audit:
+1. Is my navigation menu clear and easy to find on every page?
+Yes, the navigation is located at the top of each page and uses clear labels.
+
+2. Is there a clear visual hierarchy?
+Yes, the main titles use H1 and section titles use H2 for organization.
+
+3. Is the text easy to read?
+Yes, the contrast between background and text is readable, and font size is comfortable.
+
+Accessibility Check:
+1. All images include descriptive alt attributes. (Completed)
+2. All labels in the contact form correctly match their input fields. (Completed)
